@@ -1,0 +1,23 @@
+git config --global user.name Ayush
+git config --global user.email "aayushsaxena24@gmail.com"
+
+touch .gitignore  -- Put those things which we want to ignore before pushing  like foldername/
+
+git init   --iniutialize the folder
+
+git add .      --- putting evrything in staging area
+
+git commit -m "Initial Commit"
+
+
+git status 
+
+
+Click on ssh in github for repo
+git remote add origin "ssh link name"
+
+ssh-keygen -t ed25519 -C "aayushsaxena24@gmail.com"
+
+
+git push origin master
+
